@@ -1,0 +1,16 @@
+## Flask
+Flask==1.1.1
+Jinja2>=2.10.1
+Werkzeug>=0.15
+itsdangerous>=0.24
+click>=5.1
+MarkupSafe>=0.23
+
+
+## Pandas
+pandas>=0.25.2
+six>=1.12.0
+python-dateutil>=2.6.1
+pytz>=2017.2
+numpy>=1.13.3
+
