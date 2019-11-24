@@ -8,7 +8,7 @@ Run
 ```bash
 git clone https://github.com/alwaysprep/bazel-flask-example.git
 cd bazel-flask-example
-bazel run //src/ws:main   
+bazel run //src/python/ws:wsgi   
 ```
   
 Contributing

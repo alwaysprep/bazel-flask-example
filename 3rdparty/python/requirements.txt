@@ -14,3 +14,10 @@ python-dateutil>=2.6.1
 pytz>=2017.2
 numpy>=1.13.3
 
+## Pytest
+pytest==5.3.0
+pluggy>=0.12,<1.0
+py>=1.5.0
+packaging
+importlib-metadata>=0.12
+more-itertools>=4.0.0

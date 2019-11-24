@@ -1,17 +1,13 @@
-from flask import Flask
 import pandas as pd
+from flask import Blueprint
 
-app = Flask(__name__)
+home = Blueprint("home", __name__, url_prefix="/")
 
 
-@app.route('/')
-def hello_world():
+@home.route("/")
+def hello():
     df = pd.DataFrame({
         'a': [1, 2, 3],
         'b': [11, 33, 22]}
     )
     return df.to_json()
-
-
-if __name__ == '__main__':
-    app.run()
