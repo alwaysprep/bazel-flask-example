@@ -1,15 +1,21 @@
 # Python Bazel Example
 
-Bazel example with flask and pandas
+Bazel example with flask and pandas and pytest
 
 Run
 ---
-
-```bash
+```shell script
 git clone https://github.com/alwaysprep/bazel-flask-example.git
 cd bazel-flask-example
 bazel run //src/python/ws:wsgi   
 ```
+
+Test
+---
+```shell script
+bazel test //test/python/ws:entire
+```
+
   
 Contributing
 ------------
