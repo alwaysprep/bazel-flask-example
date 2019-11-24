@@ -5,7 +5,7 @@
 
 Install Bazel
 ---
-If you don't have Bazel in your computer, you can install it from <a href='https://docs.bazel.build/versions/master/install.html'>here</a>.
+If you don't have Bazel in your computer, you can install it from <a target='_blank' href='https://docs.bazel.build/versions/master/install.html'>here</a>.
 
 Run
 ---
