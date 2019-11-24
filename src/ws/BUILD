@@ -6,18 +6,7 @@ py_binary(
   name = "main",
   srcs = ["main.py"],
   deps = [
-    # Flask
-    requirement("Flask"),
-    requirement("Jinja2"),
-    requirement("Werkzeug"),
-    requirement("itsdangerous"),
-    requirement("click"),
-    requirement("MarkupSafe"),
-    ## Pandas
-    requirement("pandas"),
-    requirement("python-dateutil"),
-    requirement("pytz"),
-    requirement("numpy"),
-    requirement("six"),
+    "//3rdparty/python:flaks",
+    "//3rdparty/python:pandas",
   ]
 )
