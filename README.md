@@ -1,6 +1,7 @@
 # Python Bazel Example
 
-Bazel example with flask and pandas and pytest
+Bazel example with flask and pandas and pytest.
+Flask auto reloading enabled for development.
 
 Run
 ---

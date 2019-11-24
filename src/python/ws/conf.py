@@ -1,15 +1,16 @@
-class Config(object):
+class BaseConfig(object):
     DEBUG = False
     TESTING = False
 
 
-class ProductionConfig(Config):
-    pass
+class ProductionConfig(BaseConfig):
+    ENV = 'production'
 
 
-class DevelopmentConfig(Config):
+class DevelopmentConfig(BaseConfig):
+    ENV = 'development'
     DEBUG = True
 
 
-class TestingConfig(Config):
+class TestingConfig(BaseConfig):
     TESTING = True
